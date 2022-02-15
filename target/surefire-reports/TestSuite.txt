@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 17.239 s <<< FAILURE! - in TestSuite
+springTestContextPrepareTestInstance(com.app.SmokeTest)  Time elapsed: 15.441 s  <<< FAILURE!
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.app.SmokeTest': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at com.app.SmokeTest.init(SmokeTest.java:38)
+
+tearDown(com.app.SmokeTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.app.SmokeTest.tearDown(SmokeTest.java:55)
+
+afterSuite(com.app.SmokeTest)  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.app.SmokeTest.afterSuite(SmokeTest.java:44)
+
