@@ -61,11 +61,10 @@ public class SmokeTest extends BaseTest {
 	@Parameterize(filePath = "src//test//resources//Input_Data.xlsx", sheetName = "SQLResults")
 	@Test(enabled = true, dataProvider = "ExcelTestDataDTO", dataProviderClass = TestDataProvider.class, description = "GEN-5025:Add Sell Transaction :Check Specified location account is invalid for subaccount")
 	public void searchSeleniumGoogle(HashMap<String, String> testData){
-		System.out.println("test started sahil chaudhary");
 		System.out.println("url ---------" + System.getProperty("user.dir"));
 		businessFlow.openGtiUrl();
-		//driverUtil.launchURL(url);
-		//driverUtil.launchURL(url);
+		businessFlow.enterData("Test");
+		
 	}
 
 }

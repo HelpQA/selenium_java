@@ -12,7 +12,8 @@ public interface GlobalConstant {
 	
 	public static final String SMOKE_TEST_REPORTS_PATH = "\\\\file4\\develop\\wmc_apps\\Geneva\\" + "Reports" + FS ;
 	
-	public static final String SCREENSHOTS_PATH = "\\\\file4\\develop\\wmc_apps\\Geneva\\" + "Reports" + FS + "Screenshots" + FS;
+	//public static final String SCREENSHOTS_PATH = "\\\\file4\\develop\\wmc_apps\\Geneva\\" + "Reports" + FS + "Screenshots" + FS;
+	public static final String SCREENSHOTS_PATH = "c:\\Screenshots";
 	
 	public static final String TEST_FLOW_EXCEL_INCLUDE_INDICATOR = "Yes";
 
